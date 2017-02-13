@@ -1,0 +1,29 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.15.0",
+        "pimple/pimple": "~3.0",
+        "nikic/fast-route": "^0.6.0",
+        "rodneyrehm/plist": "~2.0.1",
+        "rodneyrehm/plist": "2.0.1",
+        "imagine/imagine": "~0.5.0"
+    },
+    "require-dev": {
+        "sstalle/php7cc": "^1.1"
+    }
+}

@@ -1,0 +1,6 @@
+<?php
+defined('TCP_LOG_SERVER_HOST') || define('TCP_LOG_SERVER_HOST', '192.168.78.39');
+defined('TCP_LOG_SERVER_PORT') || define('TCP_LOG_SERVER_PORT', 8300);
+
+defined('MONOLOG_SERVER_HOST') || define('MONOLOG_SERVER_HOST', '192.168.78.39');
+defined('MONOLOG_SERVER_PORT') || define('MONOLOG_SERVER_PORT', 8400);
